@@ -43,19 +43,23 @@ main [role="main"] {
     fill: $logo-color;
 }
 
-.cafe h1 svg, .attractions h1 svg{
-    height: em(22px);
+.logo svg {
+    height: 200%;
     fill: $color;
-    margin-right: em(6px);
 }
 
-.cafe h1, .attractions h1,
-.cafe h2, .attractions h2 {
-    font-size: em(60px);
+.cafe h1 svg, .attractions h1 svg{
+    height: em(30px);
+    fill: $color;
+    //margin-right: em(6px);
 }
 
-.cafe h1, .attractions h1,
+.cafe h1, .attractions h1  {
+    font-size: em(44px);
+}
+
 .cafe h2, .attractions h2 {
+    font-size: em(40px);
     color: $logo-color;
     transition: color 300ms linear;
     &:hover{
