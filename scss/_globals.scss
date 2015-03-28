@@ -1,0 +1,31 @@
+/* Globals.scss */ 
+
+@import url(http://fonts.googleapis.com/css?family=Exo+2:200,200italic,700|Vollkorn:700);
+
+@mixin body-font-light {
+    font-family: 'Exo 2', helvetica, verdana, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+} 
+
+@mixin body-font-light-italic {
+    font-family: 'Exo 2', helvetica, verdana, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+} 
+
+@mixin body-font-bold {
+    font-family: 'Exo 2', helvetica, verdana, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+} 
+
+@mixin headline-font {
+    font-family: 'Vollkorn', times new roman, serif;
+    font-style: normal;
+    font-weight: 700;
+} 
+
+//@function em($px, $base: $base-font-size) { 
+//    @return ($px / $base) * 1em; 
+//}  
