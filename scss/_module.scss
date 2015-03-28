@@ -1,11 +1,11 @@
 /* Module.scss */
 
-nav[role="navigation"] ul {
-    //background-color: $color;
+nav[role="navigation"] ul{
+    background-color: $color;
     list-style-type: none;
     margin: 0 20px 0 0;
     padding: 0 8px 4px 8px;
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 1024px){
         max-width: 100%;
         margin-bottom: 60px;
     }
@@ -17,18 +17,18 @@ nav[role="navigation"] ul li {
     padding: 0;
 }
 
-nav[role="navigation"] a {
+nav[role="navigation"] a{
     color: #fff;
     font-size: 18px;
     transition: color 300ms linear;
-    &:hover {
-        color: darken(#fff,30%);
+    &:hover{
+        color: darken(#fff, 30%);
         transition: color 300ms linear;
     }
 }
 
 header[role="banner"] svg {
-    //fill: $color;
+    fill: $color;
     @media screen and (min-width: 1024px) {
         margin: 0;
     }
@@ -39,58 +39,57 @@ main [role="main"] {
     padding: 0 10px;
 }
 
-.place-mark {
-    //fill: $logo-color;
+.place-mark{
+    fill: $logo-color;
 }
 
-.cafe h1 svg, .food h1 svg, .attractions h1 svg {
-    height: em(16px);
-    //fill: $color;
+.cafe h1 svg, .attractions h1 svg{
+    height: em(22px);
+    fill: $color;
     margin-right: em(6px);
 }
 
 .cafe h1, .attractions h1,
 .cafe h2, .attractions h2 {
-    font-size: em(50px);
+    font-size: em(60px);
 }
 
-.cafe h1 a, .attractions h1 a,
-.cafe h2 a, .attractions h2 a {
-    //color: $logo-color;
-    transition: color 300ms linear; 
-    &:hover {
-        //color: darken($logo-color,8%);
+.cafe h1, .attractions h1,
+.cafe h2, .attractions h2 {
+    color: $logo-color;
+    transition: color 300ms linear;
+    &:hover{
+        color: darken($logo-color,8%);
         transition: color 300ms linear;
     }
 }
 
 .cafe-location, .attraction-location {
-    margin-bottom: em(100px);
+    margin-bottom: em(100px); 
     &:last-of-type {
         margin-bottom: 0;
     }
 }
 
-.street-address:before {
-    content: "a. ";
+.street-address:before{
+    content: "a.";
     @include headline-font;
 }
 
-abbr[title] {
+abbr[title]{
     border-bottom: none;
 }
 
 .tel {
     display: block;
-    &:before {
-        content: "p. ";
-        @include headline-font; 
+    &:before{
+        content: "p.";
+        @include headline-font;
     }
 }
 
-
 footer[role="contentinfo"] {
-    //background-color: $color;
+    background-color: $color;
     color: #fff;
     font-size: 18px;
     padding: 10px;
@@ -98,7 +97,7 @@ footer[role="contentinfo"] {
 
 footer[role="contentinfo"] h2 {
     margin: 0;   
-}
+} 
 
 footer[role="contentinfo"] ul + h2 {
     margin-top: em(22px);
@@ -132,4 +131,4 @@ footer[role="contentinfo"] a {
 
 p[data-lazy-load] {
     text-align: center;
-} 
+}

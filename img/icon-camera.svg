@@ -2,15 +2,16 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="360px" height="360px" viewBox="0 0 360 360" enable-background="new 0 0 360 360" xml:space="preserve">
-<path stroke="#000000" stroke-miterlimit="10" d="M328.806,263.521c0,6.627-5.373,12-12,12H36.329c-6.627,0-12-5.373-12-12V96.478
-	c0-6.627,5.373-12,12-12h280.477c6.627,0,12,5.373,12,12V263.521z"/>
+	 width="304.478px" height="229.279px" viewBox="24.329 46.242 304.478 229.279"
+	 enable-background="new 24.329 46.242 304.478 229.279" xml:space="preserve">
+<path stroke="#000000" stroke-miterlimit="10" d="M328.807,263.521c0,6.627-5.373,12-12,12H36.329c-6.627,0-12-5.373-12-12V96.478
+	c0-6.627,5.373-12,12-12h280.478c6.627,0,12,5.373,12,12V263.521z"/>
 <polygon stroke="#000000" stroke-miterlimit="10" points="100.88,81.597 133.021,46.242 209.797,46.242 240.88,81.597 "/>
-<polygon stroke="#000000" stroke-miterlimit="10" points="261.909,81.599 274.22,66.621 297.72,66.621 310.278,81.599 "/>
+<polygon stroke="#000000" stroke-miterlimit="10" points="261.909,81.599 274.221,66.621 297.721,66.621 310.277,81.599 "/>
 <polygon stroke="#000000" stroke-miterlimit="10" points="42.274,81.597 48.012,71.777 61.72,71.777 67.274,81.597 "/>
-<rect x="24.329" y="126" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="304.477" height="5.5"/>
+<rect x="24.329" y="126" fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="304.478" height="5.5"/>
 <circle stroke="#FFFFFF" stroke-width="16.4099" stroke-miterlimit="10" cx="198" cy="183.08" r="64.5"/>
-<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M189.63,63.888c0,4.356-3.531,7.888-7.888,7.888h-21.724
-	c-4.356,0-7.888-3.531-7.888-7.888l0,0c0-4.356,3.532-7.888,7.888-7.888h21.724C186.099,56,189.63,59.532,189.63,63.888
-	L189.63,63.888z"/>
+<path fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" d="M189.63,63.888c0,4.356-3.53,7.888-7.888,7.888h-21.724
+	c-4.356,0-7.888-3.531-7.888-7.888l0,0c0-4.356,3.532-7.888,7.888-7.888h21.724C186.1,56,189.63,59.532,189.63,63.888L189.63,63.888
+	z"/>
 </svg>

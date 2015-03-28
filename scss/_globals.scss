@@ -2,6 +2,16 @@
 
 @import url(http://fonts.googleapis.com/css?family=Exo+2:200,200italic,700|Vollkorn:700);
 
+$color: #262626;
+$background-color: #fff;
+$base-font-size: 22px;
+$logo-color: #434343;
+$line-height: 1.45;
+
+@function em($px, $base: $base-font-size) {
+    @return($px / $base) * 1em;
+}
+
 @mixin body-font-light {
     font-family: 'Exo 2', helvetica, verdana, sans-serif;
     font-style: normal;
