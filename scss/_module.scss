@@ -48,10 +48,16 @@ main [role="main"] {
     fill: $color;
 }
 
+.line-separator{
+    margin: 20px 0 20px 0;
+    border-bottom:5px solid #000;
+
+}
+
 .cafe h1 svg, .attractions h1 svg{
     height: em(30px);
     fill: $color;
-    //margin-right: em(6px);
+    margin-right: em(6px);
 }
 
 .cafe h1, .attractions h1  {
@@ -70,7 +76,7 @@ main [role="main"] {
 
 .cafe-location, .attraction-location {
     margin-bottom: em(100px); 
-    &:last-of-type {
+    &:last-of-type{
         margin-bottom: 0;
     }
 }
